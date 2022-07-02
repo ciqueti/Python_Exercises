@@ -16,8 +16,8 @@ valores = []
 valores.append(1)
 valores.append(-10)
 valores.append(7)
-for d,v in enumerate(valores):
-    print(f'Enontrei o valor {v} na posição {d}')
+for p,v in enumerate(valores):
+    print(f'Enontrei o valor {v} na posição {p}')
 print('Final da Lista')
 valores = list()
 
