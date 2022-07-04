@@ -1,20 +1,20 @@
 #Listas Parte 2
-#teste = list()
-#teste.append('Gus')
-#teste.append(40)
-#galera = list()
-#galera.append(teste[:])
-#teste[0] = 'Maria'
-#teste[1] = '22'
-#galera.append(teste[:])
-#print(galera)
+teste = list()
+teste.append('Gus')
+teste.append(40)
+galera = list()
+galera.append(teste[:])
+teste[0] = 'Maria'
+teste[1] = '22'
+galera.append(teste[:])
+print(galera)
 
-#pessoas = [['Joao',16], ['Pedro',5], ['Dante', 40]]
-#print(pessoas)
-#print(pessoas[0])
-#print(pessoas[2][0])
-#for p in pessoas:
-#    print(f'Nome - {p[0]} Idade - {p[1]}')
+pessoas = [['Joao',16], ['Pedro',5], ['Dante', 40]]
+print(pessoas)
+print(pessoas[0])
+print(pessoas[2][0])
+for p in pessoas:
+    print(f'Nome - {p[0]} Idade - {p[1]}')
 maior = menor = 0
 dados = list()
 galera = list()
